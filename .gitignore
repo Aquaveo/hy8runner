@@ -1,0 +1,8 @@
+.idea*
+**/*.pyc
+*.egg-info
+.coverage
+.tox
+cov.xml
+docs/build
+__version__.py

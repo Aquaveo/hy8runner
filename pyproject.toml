@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+
+[project]
+name = "hy8Runner"
+description = "Run HY-8 with commandline arguments"
+readme = "README.md"
+requires-python = ">=3.10"
+dynamic = ["version"]
+
+dependencies = []
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+# addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+
+
+[tool.setuptools_scm]
+write_to = "hy8runner/__version__.py"
+
+[tool.setuptools.dynamic]
+version = {attr = "hy8runner.__version__.__version__"}
+
+[tool.black]
+line-length = 120
+target-version = ['py310']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+
+
+
+
+'''
