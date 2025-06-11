@@ -1,6 +1,6 @@
 PolyForm Noncommercial License 1.0.0
 
-Copyright (c) [2025] [Your Name or Organization]
+Copyright (c) 2025 Aquaveo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software") to use the Software in compliance with the PolyForm Noncommercial License 1.0.0.
 
