@@ -22,9 +22,6 @@ testpaths = [
 [tool.setuptools_scm]
 write_to = "hy8runner/__version__.py"
 
-[tool.setuptools.dynamic]
-version = {attr = "hy8runner.__version__.__version__"}
-
 [tool.black]
 line-length = 120
 target-version = ['py310']
